@@ -64,3 +64,9 @@ WHERE age IS NOT NULL;
 SELECT *
 FROM users
 WHERE name LIKE 'R%';
+
+-- Q11. Show names that end with a
+
+SELECT *
+FROM users
+WHERE name LIKE '%a';
